@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+
+{% block title %}About Me{% endblock title %}
+{% load static %}
+
+{% block content %}
+
+
+
+<section class="about-section center-row">
+    <div class="about-img-container center-row">
+        <img src="{% static './img/logo.png' %}." alt="logo">
+    </div>
+
+    <div class="about-description-container center-column">
+        <h1>My role as a developer</h1>
+        <h2>My name is Richard </h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus earum dolor, non tempore exercitationem
+            minus dignissimos ullam? Reprehenderit numquam deleniti modi fugiat corporis, vitae qui, praesentium earum
+            minima, ad mollitia!</p>
+
+
+        <div class="skills-container ">
+            <h2 class="center-column">Skills</h2><br>
+
+            <div class="skill-list center-row">
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+                <label class="text-label">skill</label>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}
